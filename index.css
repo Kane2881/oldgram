@@ -1,0 +1,103 @@
+/* general styling */
+
+html, body {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    background-color: #ededed;
+    font-family: "Source Sans 3", sans-serif;
+}
+
+h1 {
+    font-size: 14px;
+    margin: 0;
+}
+
+.user-info p {
+    font-weight: normal;
+    font-size: 14px;
+    margin: 0;
+}
+
+p {
+    font-weight: bold;
+}
+
+span {
+    font-weight: normal;
+}
+
+.post-comment {
+    margin: 0;
+}
+
+.post-likes {
+    font-size: 14px;
+}
+
+img {
+    display: block;
+    max-width: 100%;
+}
+
+.logo-img {
+    width: 127px;
+}
+
+.user-avatar {
+    width: 32px;
+    border-radius: 50%;
+}
+
+/* layouts */
+
+.container {
+    max-width: 375px;
+    margin: 20px auto;
+}
+
+header {
+    background-color: white;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 5px 10px;
+    border-bottom: 1px solid #c6c6c6;
+}
+
+#content {
+    display: grid;
+    grid-template-columns: 1fr;
+    gap: 20px;
+}
+
+.post {
+    background-color: #fff;
+}
+
+.post-header {
+    display: flex;
+    gap: 10px;
+    padding: 15px 10px;
+}
+
+.post-interactions {
+    padding: 10px;
+}
+
+.icons {
+    width: 20px;
+    height: 20px;
+}
+
+.icons:hover,
+.icons:active {
+    transform: scale(1.1);
+    cursor: pointer;
+}
+
+.icons-flexbox {
+    display: flex;
+    gap: 10px;
+}
+
